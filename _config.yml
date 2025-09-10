@@ -1,3 +1,10 @@
 title: "Rooted Journey"
 description: "Aslan Taleb"
 theme: minima
+
+minima:
+  nav:
+    - title: "Home"
+      url: /
+    - title: "Posts"
+      url: /posts/

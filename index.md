@@ -2,11 +2,6 @@
 layout: home
 ---
 
-<p align="center">
-  <img src="https://media.giphy.com/media/jzHFPlw89eTqU/giphy.gif" alt="CTF & Pentest Journey Logo" />
-</p>
-Hai ! 
-
 Ce blog est là pour tracer ce que j’ai fait et ce que je continue à faire presque tous les jours, surtout sur **TryHackMe**.  
 C’est une façon de relire et organiser mes notes, et pour toi qui lis ce blog, c’est plus simple et visuel de voir mon parcours.  
 
@@ -25,4 +20,4 @@ C’est une façon de relire et organiser mes notes, et pour toi qui lis ce blog
 - **Scripting** : Bash, Python (automation, exploits simples)  
 - **Prise de notes** : CherryTree  
 
-⚠️ Tout le contenu est uniquement à but éducatif :)
+⚠️ Tout le contenu est uniquement à but éducatif.
