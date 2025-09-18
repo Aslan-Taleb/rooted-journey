@@ -11,7 +11,7 @@ author_profile: true
 
 Tu peux consulter ou télécharger mon CV au format PDF ci-dessous :
 
-<embed src="/assets/resume/resume.pdf" width="100%" height="100px"/>
+<embed src="https://aslan-taleb.github.io/rooted-journey/assets/resume/resume.pdf" width="100%" height="100px"/>
 
 
 
