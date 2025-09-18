@@ -1,0 +1,28 @@
+# main links of top right of page and author pic column
+main:
+  - title: "À propos"
+    url: /about/
+  - title: "Blog"
+    url: /blogs/
+  - title: "CTF"
+    url: /ctfs/
+  - title: "Portfolio"
+    url: /portfolio/    
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+
+
+# docs:
+#   - title: blogs
+#     children:
+#       - title: "Basic Cybersecurity Knowledge"
+#         url: /blogs/basic-cybersecurity-knowledge
+
+  # - title: ctf writeups
+  #   children:
+  #     - title: "TryHackMe"
+  #       url: /ctfs/tryhackme
+
+      

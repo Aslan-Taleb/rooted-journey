@@ -1,0 +1,269 @@
+  # Welcome to Jekyll!
+  #
+  # This config file is meant for settings that affect your entire site, values
+  # which you are expected to set up once and rarely need to edit after that.
+  # For technical reasons, this file is *NOT* reloaded automatically when you use
+  # `jekyll serve`. If you change this file, please restart the server process.
+
+  # Theme Settings
+  #
+  # Review documentation to determine if you should use `theme` or `remote_theme`
+  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+  # theme                  : "minimal-mistakes-jekyll"
+  # remote_theme           : "mmistakes/minimal-mistakes"
+  minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+  #air contrast dirt mint aqua neon
+
+  # Site Settings
+  locale                   : "fr-FR"
+  title                    : "Offensive Cyber Journey"
+  title_separator          : "-"
+  subtitle                 : # site tagline that appears below site title in masthead
+  name                     : "Aslan Taleb"
+  description              : "Portfolio Aslan Taleb"
+  url                      : "https://aslan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+  baseurl                  : # the subpath of your site, e.g. "/blog"
+  repository               : "https://github.com/Aslan-Taleb" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+  #teaser                   : /assets/images/spoderman.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+  logo                     : "/assets/images/logo_de_fou.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+  masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+  breadcrumbs              : true # true, false (default)
+  words_per_minute         : 120
+
+
+  # Social Sharing
+  twitter:
+    username               :
+  facebook:
+    username               :
+    app_id                 :
+    publisher              :
+  og_image                 : # Open Graph/Twitter default site image
+  # For specifying social profiles
+  # - https://developers.google.com/structured-data/customize/social-profiles
+  social:
+    type                   : # Person or Organization (defaults to Person)
+    name                   : # If the user or organization name differs from the site's name
+    links: # An array of links to social media profiles
+
+  # Site Author
+  author:
+    name             : "Aslan Taleb"
+    avatar           : "/assets/images/aslan_work.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+    bio: "Bienvenue ! Ici, je partage ma petite aventure Red Team, je te laisse mettre tes chaussures à la porte."
+    location         : "France"
+    #email            : "aslantalebselim@gmail.com"
+    links:
+      - label: "aslantalebselim@gmail.com"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "mailto:aslantalebselim@gmail.com"
+      - label: "LinkedIn"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/aslan-taleb/"     
+      - label: "TryHackMe"
+        icon: "fas fa-fw fa-user-secret"
+        url: "https://tryhackme.com/p/AslaN" 
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/Aslan-Taleb"
+      - label: "Website"
+        icon: "fas fa-fw fa-link"
+        # url: "https://your-website.com"
+      - label: "Twitter"
+        icon: "fab fa-fw fa-twitter-square"
+        # url: "https://twitter.com/"
+      - label: "Facebook"
+        icon: "fab fa-fw fa-facebook-square"
+        # url: "https://facebook.com/"
+      - label: "Instagram"
+        icon: "fab fa-fw fa-instagram"
+        # url: "https://instagram.com/"
+
+  # Site Footer
+  footer:
+    links:
+      - label: "Twitter"
+        icon: "fab fa-fw fa-twitter-square"
+        # url:
+      - label: "Facebook"
+        icon: "fab fa-fw fa-facebook-square"
+        # url:
+      - label: "email"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "mailto:aslantalebselim@gmail.com"
+      - label: "LinkedIn"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/aslan-taleb/"
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/Aslan-Taleb"
+      - label: "GitLab"
+        icon: "fab fa-fw fa-gitlab"
+        # url:
+      - label: "Instagram"
+        icon: "fab fa-fw fa-instagram"
+        # url:
+
+  # Reading Files
+  include:
+    - .htaccess
+    - _pages
+    - _blogs
+  exclude:
+    - "*.sublime-project"
+    - "*.sublime-workspace"
+    - vendor
+    - .asset-cache
+    - .bundle
+    - .jekyll-assets-cache
+    - .sass-cache
+    - assets/js/plugins
+    - assets/js/_main.js
+    - assets/js/vendor
+    - Capfile
+    - CHANGELOG
+    - config
+    - Gemfile
+    - Gruntfile.js
+    - gulpfile.js
+    - LICENSE
+    - log
+    - node_modules
+    - package.json
+    - package-lock.json
+    - Rakefile
+    - README
+    - tmp
+    - /docs # ignore Minimal Mistakes /docs
+    - /test # ignore Minimal Mistakes /test
+  keep_files:
+    - .git
+    - .svn
+  encoding: "utf-8"
+  markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+  # Markdown Processing
+  kramdown:
+    input: GFM
+    hard_wrap: false
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
+    enable_coderay: false
+
+  # Outputting
+  permalink: /:collection/:categories/:title/
+  paginate: 5 # amount of posts to show
+  paginate_path: /page:num/
+  timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+  # Plugins (previously gems:)
+  plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jekyll-include-cache
+
+  # mimic GitHub Pages with --safe
+  whitelist:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jekyll-include-cache
+
+
+  # Archives
+  #  Type
+  #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+  #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+  #  Path (examples)
+  #  - Archive page should exist at path when using Liquid method or you can
+  #    expect broken links (especially with breadcrumbs enabled)
+  #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+  #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+  #  - <base_path>/my-awesome-category/index.html ~> path: /
+  category_archive:
+    type: jekyll-archives #liquid
+    path: /blogs/
+  #tag_archive:
+  #  type: liquid
+  #  path: /tags/
+  # https://github.com/jekyll/jekyll-archives
+  jekyll-archives:
+    enabled:
+      - categories
+  #     - tags
+    layouts:
+      category: archive-taxonomy
+  #     tag: archive-taxonomy
+    permalinks:
+      category: /categories/ #:name/
+  #     tag: /tags/:name/
+
+
+
+  # Defaults
+  defaults:
+    # _posts
+    - scope:
+        path: ""
+        type: posts
+      values:
+        layout: single
+        #classes: wide
+        author_profile: true
+        read_time: true
+        words_per_minute: 100
+        #comments: # true
+        #share: false
+        related: true
+        show_date: true
+
+    # _ctfs
+    - scope:
+        path: ""
+        type: ctfs
+      values:
+        layout: single
+        classes: wide
+        author_profile: true
+        read_time: true
+        words_per_minute: 100
+        show_date: true
+        #related: true
+        
+    # _docs
+    - scope:
+        path: ""
+      values:
+        sidebar:
+          nav: "docs"
+
+    # _pages
+    - scope:
+        path: ""
+        type: pages
+      values:
+        layout: category
+        author_profile: true
+
+  collections:
+    ctfs:
+      output: true
+      # permalink: /:collection/:path/
+    blogs:
+      output: true
+    about:
+      output: true
+
+  #search: true
+  #lunr:
+  #  search_within_pages: true
+  #atom_feed:
+  #  hide: true
