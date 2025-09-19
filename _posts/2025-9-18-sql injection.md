@@ -1,7 +1,7 @@
 ---
-title: "alors que ici des outils utiles de fou"
-categories: Outils
-permalink: /blogs/sql-injection
+title: "Blue"
+categories: THM challenges
+permalink: /blogs/Blue
 toc: true
 toc_label: "Table of Contents"
 toc_icon: stream # tasks #"torii-gate"
