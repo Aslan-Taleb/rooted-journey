@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://aslan-taleb.github.io/rooted-journey/favicon.ico/android-chrome.png"/>
+            <square150x150logo src="https://aslan-taleb.github.io/rooted-journey/android-chrome.png"/>
             <TileColor>#da532c</TileColor>
         </tile>
     </msapplication>
