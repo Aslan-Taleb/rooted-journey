@@ -22,8 +22,8 @@
   subtitle                 : # site tagline that appears below site title in masthead
   name                     : "Aslan Taleb"
   description              : "Portfolio Aslan Taleb"
-  url                      : "https://aslan-taleb.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-  baseurl                  : # the subpath of your site, e.g. "/blog"
+  url                      : "https://aslan-taleb.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+  baseurl                  : "/rooted-journey"
   repository               : "https://github.com/Aslan-Taleb" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
   #teaser                   : /assets/images/spoderman.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
   logo                     : "/assets/images/logo_de_fou.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
